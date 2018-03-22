@@ -1,5 +1,5 @@
 # dispensary-game
-Get your patients the legal help they need!<br> 
+Get the legal help you need!<br> 
 Play the demo! https://dispensary-game.herokuapp.com/<br>
 
 ## How to Play
@@ -28,11 +28,14 @@ Internally, __fill in later__.<br>
 
 
 ## Contributors
-__fill in later__
-__fill in later__
-__fill in later__
+__Timour Basegmez__ - __fill in later__;<br>
+  Github: https://github.com/codemode9<br>
 __Daniel Mace__ - project lead/historian/note-taker; __fill in later__;<br>
   Github: https://github.com/Daniibooii<br>
+__Evan Voultepsis__ - __fill in later__;<br>
+  Github: https://github.com/evangelosv93<br>
+__Devon Williams__ - __fill in later__;<br>
+  Github: https://github.com/Dvnwllms<br>
 
 ## Notes
 __fill in later__
@@ -42,3 +45,4 @@ __fill in later__
 
 ## Resources
 __fill in later__
+
