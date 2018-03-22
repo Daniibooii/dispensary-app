@@ -1,1 +1,44 @@
 # dispensary-game
+Get your patients the legal help they need!<br> 
+Play the demo! https://dispensary-game.herokuapp.com/<br>
+
+## How to Play
+__fill in later__
+
+## How to Install & Run
+To install,
+- clone the repo
+- run `npm install`
+
+To run,
+- run `npm run start`
+- in a browser, open http://localhost:3001
+
+# Project Description
+__fill in later__
+
+The project was conceived and organized by Daniel Mace;<br>
+it was developed by a __fill in later__ -person team over one week.<br>
+The total time spent developing our project, including time spent learning new tools, is estimated at __fill in later__ hours.<br>
+
+We primarily utilized __fill in later__.<br>
+__fill in later__
+
+Internally, __fill in later__.<br>
+
+
+## Contributors
+__fill in later__
+__fill in later__
+__fill in later__
+__Daniel Mace__ - project lead/historian/note-taker; __fill in later__;<br>
+  Github: https://github.com/Daniibooii<br>
+
+## Notes
+__fill in later__
+
+## Inspirations
+__fill in later__
+
+## Resources
+__fill in later__
