@@ -1,0 +1,27 @@
+{
+  "name": "dispensary-game",
+  "version": "1.0.0",
+  "description": "Get your patients the legal help they need!<br> \r Play the demo! https://dispensary-game.herokuapp.com/<br>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniibooii/dispensary-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniibooii/dispensary-game/issues"
+  },
+  "homepage": "https://github.com/Daniibooii/dispensary-game#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0",
+    "sequelize": "^4.37.4"
+  }
+}

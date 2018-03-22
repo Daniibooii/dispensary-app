@@ -1,0 +1,83 @@
+<!-- template below -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Setting up the HTML doc below -->
+    <meta charset="UTF-8">
+    <!-- Importing Meyerweb reset -->
+    <link rel="stylesheet" type="text/css" href="assets\css\reset.css">
+    <!-- Importing Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Importing materialize.css-->
+    <link type="text/css" rel="stylesheet" href="assets\css\materialize.min.css" media="screen,projection" />
+    <!-- Importing local style sheet -->
+    <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+    <!-- Setting view -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- TITLE HERE -->
+    <title>CryptoGolf</title>
+
+
+</head>
+
+<link rel="icon" href="assets\images\bitcoin-basic-rounded.png">
+
+</style>
+
+<body>
+
+    <main>
+
+        <br>
+        <div class="row row-main" >
+            <div class="col s10 offset-s1">
+                <div class="card white top-border">
+                    <div class="card-content" id="rainingBitcoins" style="position: relative; z-index: 99; width: 100%; height: 100%" >
+
+                      </div>
+                    </div>
+                    <div class="row center">
+                        <div class="col s12">
+                          <button class="btn waves-effect waves-light" id="crypto-btn" type="submit" name="action">Spawn Coins</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s10 offset-s1">
+                            <div class="carousel" id="coin-carousel">
+                            <a class="carousel-item" id="btc-carousel" href="#btc"><button class="coin-btn" id="btc-btn"><img class="coin-image" src="assets\images\bitcoin-basic-rounded.png"></button></a>
+                            <a class="carousel-item" id="eth-carousel" href="#eth"><button class="coin-btn" id="eth-btn"><img class="coin-image" src="assets\images\ethereum-blue-rounded.png"></button></a>
+                            <a class="carousel-item" id="ltc-carousel" href="#ltc"><button class="coin-btn" id="ltc-btn"><img class="coin-image" src="assets\images\litecoin-fancy1-rounded.png"></button></a>
+                            <a class="carousel-item" id="xmr-carousel" href="#xmr"><button class="coin-btn" id="xmr-btn"><img class="coin-image" src="assets\images\monero-rounded.png"></button></a>
+                            <a class="carousel-item" id="ada-carousel" href="#ada"><button class="coin-btn" id="ada-btn"><img class="coin-image" src="assets\images\cardano-coin-rounded.png"></button></a>
+                            <a class="carousel-item" id="eos-carousel" href="#eos"><button class="coin-btn" id="eos-btn"><img class="coin-image" src="assets\images\eos-coin-rounded.png"></button></a>
+                            <a class="carousel-item" id="xrp-carousel" href="#xrp"><button class="coin-btn" id="xrp-btn"><img class="coin-image" src="assets\images\ripple-silver-rounded.png"></button></a>
+                            <a class="carousel-item" id="xem-carousel" href="#xem"><button class="coin-btn" id="xem-btn"><img class="coin-image" src="assets\images\nemxem-coin-rounded.png"></button></a>
+                            <a class="carousel-item" id="neo-carousel" href="#neo"><button class="coin-btn" id="neo-btn"><img class="coin-image" src="assets\images\neo-coin-rounded.png"></button></a>
+                            <a class="carousel-item" id="xlm-carousel" href="#xlm"><button class="coin-btn" id="xlm-btn"><img class="coin-image" src="assets\images\stellar-coin-rounded.png"></button></a>
+                            </div>
+                        </div>
+                      </div>
+
+                             <div class="row center">
+                               <div class="col s12" id="bottom-btns">
+                                 <button class="btn waves-effect waves-light" id="check-currency-btn" type="submit" name="action">Check Currency</button>
+                                 <button class="btn waves-effect waves-light" id="start-game-btn" type="submit" name="action">Start the Game!</button>
+                                 <button class="btn waves-effect waves-light" id="call-gif-btn" type="submit" name="action">Call Crypto Gif</button>
+                               </div>
+                             </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--Importing jQuery before materialize.js, then local JS script-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets\javascript\materialize.min.js"></script>
+    <script type="text/javascript" src="assets\javascript\script.js"></script>
+
+</body>
+
+</html>
