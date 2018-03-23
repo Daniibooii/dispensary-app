@@ -38,7 +38,17 @@ __Devon Williams__ - __fill in later__;<br>
   Github: https://github.com/Dvnwllms<br>
 
 ## Notes
-__fill in later__
+__Project goals:__
+create a Node/Express web server 
+use MySQL DB/Sequelize ORM
+structure folders/files to meet MVC paradigm
+use HB
+include working GET/POST routes
+host with Heroku
+handle user authentication with Passport
+use one new technology
+include polished front-end/UI
+meet good quality coding standards: indentation/scoping/naming
 
 ## Inspirations
 __fill in later__
