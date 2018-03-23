@@ -3,23 +3,23 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12 text-center" id="top-bar">
-      <img src="public\assets\img\burger.png">
-      <h1>Eat the burger</h1>
+      <img src="">
+      <h1></h1>
     </div>
     <div class="col-xs-6 text-center" class="task">
       <div class="row">
-        {{#each burger_data}}
-          {{#unless this.devoured}}
+        {{#each }}
+          {{#unless this.}}
           <div class="col-xs-9 text-center">
-            <pre>{{this.id}}. {{this.burger_name}}
+            <pre>{{this.id}}. {{this.}}
             </pre>
           </div>
           <div class="col-xs-3 text-center">
             <form class="devour-form button-size">
-              <input type="hidden" class="burger_id" type="text" value="{{this.id}}">
+              <input type="hidden" class="" type="text" value="{{this.id}}">
               <br>
               <button type="submit" class="btn btn-default">
-                DEVOUR IT
+
               </button>
 
             </form>
@@ -31,7 +31,3 @@
 
   </div>
 </div>
-
-Setup the index.handlebars to have the template that Handlebars can render onto.
-
-Create a button in index.handlebars that will submit the user input into the database.
