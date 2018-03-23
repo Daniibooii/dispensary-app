@@ -1,6 +1,6 @@
 # dispensary-game
 Get the legal help you need!<br> 
-Play the demo! https://dispensary-game.herokuapp.com/<br>
+Play the demo! https://dispensary-app.herokuapp.com/<br>
 
 ## How to Play
 __fill in later__
