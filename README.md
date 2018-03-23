@@ -1,4 +1,4 @@
-# dispensary-game
+# dispensary-app
 Get the legal help you need!<br> 
 Play the demo! https://dispensary-app.herokuapp.com/<br>
 
