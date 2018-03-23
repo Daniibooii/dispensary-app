@@ -38,7 +38,7 @@ __Devon Williams__ - __fill in later__;<br>
   Github: https://github.com/Dvnwllms<br>
 
 ## Notes
-__Project goals:__
+__Project goals:__<br>
 create a Node/Express web server<br> 
 use MySQL DB/Sequelize ORM<br> 
 structure folders/files to meet MVC paradigm<br> 
