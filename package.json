@@ -23,6 +23,7 @@
     "express-handlebars": "^3.0.0",
     "inquirer": "^5.1.0",
     "mysql": "^2.15.0",
+    "passport": "^0.4.0",
     "sequelize": "^4.37.4"
   }
 }
