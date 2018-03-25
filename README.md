@@ -18,7 +18,7 @@ To run,
 __fill in later__
 
 The project was conceived and organized by Daniel Mace;<br>
-it was developed by a __fill in later__ -person team over one week.<br>
+it was developed by a four-person team over one week.<br>
 The total time spent developing our project, including time spent learning new tools, is estimated at __fill in later__ hours.<br>
 
 We primarily utilized __fill in later__.<br>
@@ -28,13 +28,13 @@ Internally, __fill in later__.<br>
 
 
 ## Contributors
-__Timour Basegmez__ - __fill in later__;<br>
+__Timour Basegmez__ - lead on server/routing; back-end/front-end;<br>
   Github: https://github.com/codemode9<br>
-__Daniel Mace__ - project lead/historian/note-taker; __fill in later__;<br>
+__Daniel Mace__ - project lead/historian/note-taker; back-end/front-end;<br>
   Github: https://github.com/Daniibooii<br>
-__Evan Voultepsis__ - __fill in later__;<br>
+__Evan Voultepsis__ - lead on Handlebars; back-end/front-end;<br>
   Github: https://github.com/evangelosv93<br>
-__Devon Williams__ - __fill in later__;<br>
+__Devon Williams__ - lead on design elements; back-end/front-end;<br>
   Github: https://github.com/Dvnwllms<br>
 
 ## Notes
@@ -55,4 +55,5 @@ __fill in later__
 
 ## Resources
 __fill in later__
+Otreeba Open Cannabis API<br>
 
