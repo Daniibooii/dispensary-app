@@ -1,5 +1,5 @@
 {
-  "name": "dispensary-game",
+  "name": "dispensary-app",
   "version": "1.0.0",
   "description": "Get your patients the legal help they need!<br> \r Play the demo! https://dispensary-game.herokuapp.com/<br>",
   "main": "server.js",

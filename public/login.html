@@ -1,272 +1,227 @@
-<!-- template below -->
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Material Design Bootstrap</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet">
-    <!-- Your custom styles (optional) -->
-    <link href="css/style.css" rel="stylesheet">
+  <title>Bootstrap Website Tutorial</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <style>
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      color: #FFF;
+      background-color:black;
+      padding: 1% 0;
+      font-size: 1.2em;
+      border: 0;
+    }
+    .navbar-brand {
+      float: left;
+      min-height: 55px;
+      padding: 0 15px 5px;
+    }
+    .navbar-inverse .navbar-nav.active a, .navbar-inverse .navbar-nav.active a:focus,
+      .navbar-inverse .navbar-nav.active a:hover, {
+        color: FFF;
+        background-color:black;
+      }
+      .navbar-inverse .navbar-nav li a {
+        color: D5D5D5;
+      }
+      .carousel-caption {
+        top: 50%;
+        transform: translateY(-50%);
+        text-transform: uppercase;
+      }
+      .btn {
+        font-size: 18px;
+        color: #FFF;
+        padding: 12px 22px;
+        background:black;
+        border: 2px solid #FFF;
+      }
+      .container {
+        margin: 4% auto;
+      }
+      #icon {
+        max-width: 200px;
+        margin: 1% auto;
+      }
+      footer {
+        width: 100%;
+        background-color: black;
+        padding: 3%;
+        color: #FFF;
+      }
+
+      @media (max-width: 600px) {
+        .carousel-caption {
+          display: none;
+        }
+        #icon {
+          max-width: 150px;
+        }
+        h2 {
+          font-size: 1.7em;
+        }
+      }
+
+  </style>
+
 </head>
 
 <body>
+  <nav class="navbar navbar-inverse">
+      <div class ="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="images/going-green.png"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+  </nav>
 
-
-    <!-- Start your project here-->
-    <!--Navbar-->
-    <nav class="navbar navbar-toggleable-md navbar-dark fixed-top scrolling-navbar navbar-transparent">
-
-    <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">Navbar</a>
-
-    <!-- Collapse button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="basicExampleNav">
-
-        <!-- Links -->
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home
-                    <span class="sr-only">(current)</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-            </li>
-
-            <!-- Dropdown -->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
-
-        </ul>
-        <!-- Links -->
-
-    <!-- Collapsible content -->
-
-</nav>
-
-<!--Carousel Wrapper-->
-<div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
-    <!--Indicators-->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-        <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
-        <li data-target="#video-carousel-example2" data-slide-to="1"></li>
-        <li data-target="#video-carousel-example2" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
-    <!--/.Indicators-->
-    <!--Slides-->
     <div class="carousel-inner" role="listbox">
-        <!-- First slide -->
-        <div class="carousel-item active">
-            <!--Mask color-->
-            <div class="view">
-                <!--Video source-->
-                <video class="video-fluid" autoplay loop>
-                    <source src="https://mdbootstrap.com/img/video/Lines.mp4" type="video/mp4" />
-                </video>
-                <div class="mask rgba-indigo-light"></div>
-            </div>
-
-            <!--Caption-->
-            <div class="carousel-caption">
-                <div class="animated fadeInDown">
-                    <h3 class="h3-responsive">Light mask</h3>
-                    <p>First text</p>
-                </div>
-            </div>
-            <!--Caption-->
+      <div class="item active">
+        <img src="images/relax.png">
+        <div class="carousel-caption">
+          <h1>Greener Pastures</h1>
+          <br>
+          <a href="checkin.html"><button type="button" class="btn bt-default">Login</button></a>
+          <a href="signup.html"><button type="button" class="btn bt-default">Sign Up</button></a>
         </div>
-        <!-- /.First slide -->
-
-        <!-- Second slide -->
-        <div class="carousel-item">
-            <!--Mask color-->
-            <div class="view">
-                <!--Video source-->
-                <video class="video-fluid" autoplay loop>
-                    <source src="https://mdbootstrap.com/img/video/animation-intro.mp4" type="video/mp4" />
-                </video>
-                <div class="mask rgba-purple-light"></div>
-            </div>
-
-            <!--Caption-->
-            <div class="carousel-caption">
-                <div class="animated fadeInDown">
-                    <h3 class="h3-responsive">Super light mask</h3>
-                    <p>Secondary text</p>
-                </div>
-            </div>
-            <!--Caption-->
+        </div> <!-- End Active -->
+        <div class="item">
+          <img src="images/tree.jpeg">
+          <div class="carousel-caption">
+            <h1>Greener Pastures</h1>
+            <br>
+            <a href="checkin.html"><button type="button" class="btn bt-default">Login</button></a>
+            <a href="signup.html"><button type="button" class="btn bt-default">Sign Up</button></a>
+          </div>
         </div>
-        <!-- /.Second slide -->
-
-        <!-- Third slide -->
-        <div class="carousel-item">
-            <!--Mask color-->
-            <div class="view">
-                <!--Video source-->
-                <video class="video-fluid" autoplay loop>
-                    <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4" />
-                </video>
-                <div class="mask rgba-black-light"></div>
-            </div>
-
-            <!--Caption-->
-            <div class="carousel-caption">
-                <div class="animated fadeInDown">
-                    <h3 class="h3-responsive">Strong mask</h3>
-                    <p>Third text</p>
-                </div>
-            </div>
-            <!--Caption-->
-        </div>
-        <!-- /.Third slide -->
+        <div class="item">
+          <img src="images/forest.jpeg">
+          <div class="carousel-caption">
+            <h1>Greener Pastures</h1>
+            <br>
+            <a href="checkin.html"><button type="button" class="btn bt-default">Login</button></a>
+            <a href="signup.html"><button type="button" class="btn bt-default">Sign Up</button></a>
+          </div>
+          </div>
     </div>
-    <!--/.Slides-->
-    <!--Controls-->
-    <a class="carousel-control-prev" href="#video-carousel-example2" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
+    <!-- Start Slider Controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#video-carousel-example2" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
-    </a>
-    <!--/.Controls-->
-</div>
-<!--Carousel Wrapper-->
+      </a>
+  </div> <!-- End Slider -->
 
-<!--Section: Features v.1-->
-<section class="text-center">
+  <div class="container text-center"> <!-- ICONS COURTESY OF FLATICON.COM -->
+    <h2>What We're Using</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="images/003-doctor.png" id="icon">
+        <h4>Consult Licenced Physicians</h4>
+      </div>
+      <div class="col-sm-4">
+        <img src="images/002-internet.png" id="icon">
+        <h4>Join A Global Support Network</h4>
+      </div>
+      <div class="col-sm-4">
+        <img src="images/001-smartphone-24-hours-service.png" id="icon">
+        <h4>Round The Clock Access</h4>
+      </div>
+    </div>
+  </div>
 
-        <!--Section heading-->
-        <h1 class="py-5 font-weight-bold">Why is it so great?</h1>
-        <!--Section description-->
-        <p class="px-5 mb-5 pb-3 lead grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim veniam.</p>
-    
-        <!--Grid row-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Recent Studies Show...</h4>
+        <p>A recent report by the National Academies of Sciences, Engineering, and Medicine said there was definitive evidence that cannabis or cannabinoids (which are found in the marijuana plant) can be an effective treatment for chronic pain. That same report said there's equally strong evidence marijuana can help with muscle spasms related to multiple sclerosis. Other types of muscle spasms respond to marijuana as well. People use medical marijuana to treat diaphragm spasms that are untreatable by other, prescribed medications.</p>
+        <p>Marijuana is also used to manage nausea and weight loss, and can be used to treat glaucoma. A highly promising area of research is its use for PTSD in veterans who are returning from combat zones. Many veterans and their therapists report drastic improvement and clamor for more studies, and for a loosening of governmental restrictions on its study. Medical marijuana is also reported to help patients suffering from pain and wasting syndrome associated with HIV, as well as irritable bowel syndrome and Crohn’s disease.It was found in the study, published in the journal Molecular Cancer Therapeutics, that Cannabidiol has the ability to stop cancer by turning off a gene called Id-1. In 2007, researchers at California Pacific Medical Center in San Francisco, reported that CBD may prevent cancer from spreading. The researchers experimented on breast cancer cells in the lab that had high level of Id-1, and treated them with cannabidiol. The outcome was rather positive, the cells had decreased Id-1 expression, and were less aggressive spreaders. In fact, the American Association for Cancer Research has found that marijuana actually works to slow down tumor growth in brain, breast, and lungs considerately. </p>
+    </div>
+      <div class="col-md-6">
+        <img src="images/scientist.jpeg" class="img=responsive">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h4>Find The Relief You Deserve</h4>
+          <p>Don't let your fear or anxiety of being judged stop you from getting help. Get connected with one of our licesed physicians today.  Setting up an appoint is quick, easy, and most importantly, focused on you.</p>
+      </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <img src="images/001-people.png" class="img=responsive">
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h4>Insurance Insurance Insurance</h4>
+          <p>We work around your budget! Every benifit you recieve is covered under insurance.  We will work with all major providers to ensure that there is nothing standing in the way between you and relief. Green for you and green for us! Everybody wins!</p>
+        </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <img src="images/002-change.png" class="img=responsive">
+          </div>
+      </div>
+    </div>
+
+    <div class="container">
         <div class="row">
-    
-        <!--Grid column-->
-        <div class="col-md-4">
-            <i class="fa fa-area-chart fa-3x red-text"></i>
-            <h5 class="font-weight-bold mt-3">Analytics</h5>
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti
-            hic.
-            </p>
+          <h4><a href="#hidden" data-toggle="collapse">Legally authorized reasons to use Medicinal Marijuana</a></h4>
+          <div id="hidden" class="collapse">
+            <h4>It all depends on the state you live in</h4>
+            <p>Please consult the index at https://www.leafly.com/news/health/qualifying-conditions-for-medical-marijuana-by-state for more information.</p>
         </div>
-        <!--Grid column-->
-    
-        <!--Grid column-->
-        <div class="col-md-4">
-            <i class="fa fa-book fa-3x cyan-text"></i>
-            <h5 class="font-weight-bold mt-3">Tutorials</h5>
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti
-            hic.
-            </p>
-        </div>
-        <!--Grid column-->
-    
-        <!--Grid column-->
-        <div class="col-md-4">
-            <i class="fa fa-comments-o fa-3x orange-text"></i>
-            <h5 class="font-weight-bold mt-3">Support</h5>
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti
-            hic.
-            </p>
-        </div>
-        <!--Grid column-->
-    
-        </div>
-        <!--Grid row-->
-    
-    </section>
-    <!--Section: Features v.1-->
-     
-    <!--Footer-->
-<footer class="page-footer font-small blue pt-4 mt-4">
+      </div>
+    </div>
 
-        <!--Footer Links-->
-        <div class="container-fluid text-center text-md-left">
-            <div class="row">
-    
-                <!--First column-->
-                <div class="col-md-6">
-                    <h5 class="text-uppercase">Footer Content</h5>
-                    <p>Here you can use rows and columns here to organize your footer content.</p>
-                </div>
-                <!--/.First column-->
-    
-                <!--Second column-->
-                <div class="col-md-6">
-                    <h5 class="text-uppercase">Links</h5>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#!">Link 1</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 2</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 3</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 4</a>
-                        </li>
-                    </ul>
-                </div>
-                <!--/.Second column-->
-            </div>
+    <footer class="container-fluid text-center">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Contact Us</h3>
+          <br>
+          <h4>Our address and contact info here</h4>
         </div>
-        <!--/.Footer Links-->
-    
-        <!--Copyright-->
-        <div class="footer-copyright py-3 text-center">
-            © 2018 Copyright:
-            <a href="https://mdbootstrap.com/material-design-for-bootstrap/"> MDBootstrap.com </a>
-        </div>
-        <!--/.Copyright-->
-    
+        <div class="col-sm-4">
+          <h3>Contact Us</h3>
+          <br>
+          <h4>Our address and contact info here</h4>
+          </div>
+        <div class="col-sm-4">
+          <h3>Contact Us</h3>
+          <br>
+          <h4>Our address and contact info here</h4>
+          </div>
+      </div>
     </footer>
-    <!--/.Footer-->
 
-
-
-    <!-- /Start your project here-->
-
-    <!-- SCRIPTS -->
-    <!-- JQuery -->
-    <script type="text/javascript" src="javascript/jquery-3.2.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="javascript/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="javascript/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="javascript/mdb.min.js"></script>
 </body>
-
 </html>

@@ -61,6 +61,8 @@ use one new technology<br>
 include polished front-end/UI<br> 
 meet good quality coding standards: indentation/scoping/naming<br> 
 
+Powerpoint Presentation: https://docs.google.com/presentation/d/1UGg5VhAX3pe2CqOi0sk7Jw4gYQ-BVF7UpDAyf4exe2o/edit?usp=sharing<br>
+
 ## Inspirations
 People who are in pain and can't get treatment or don't know what to take;<br>
 folks who are in prison for use of medicinal marijuana.<br>
