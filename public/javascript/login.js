@@ -1,47 +1,33 @@
-
-
-// potential templates below //
-
-$(document).ready(function(){
-  $('.carousel').carousel();
-});
-
-function showCarousel() {
-  $(document).on("click", "#crypto-btn", function () {
-  $('.carousel').show();
-},
-};
-
-$("#rainingBitcoins").delay(9000).fadeOut(300);
-
-function videoTimer() {
-// disable clicking //
-events._click = events.click;
-events.click = null;
-// restore clicking //
-setTimeout(function(){
-vents.click = events._click;
-events._click = null;
- },  9000);
-};
-
-videoTimer()
-
-
-$("#bottom-btns").hide();
-$("#check-currency-btn").hide();
-$("#call-gif-btn").hide();
-
-$(document).ready(function(){
-  $(".carousel").carousel();
-  $(".carousel").hide();
-  showCarousel();
-});
-
-$("#crypto-btn").click(function(){
-  $(".carousel").show();
-});
-
-$(".coin-btn").click(function(){
-  $("#bottom-btns").show();
-});
+$(document).ready(function() {
+    var loginForm = $("form.login");
+    var emailInput = $("input#email-input");
+    var passwordInput = $("input#password-input");
+  
+    loginForm.on("submit", function(event) {
+      event.preventDefault();
+      var userData = {
+        email: emailInput.val().trim(),
+        password: passwordInput.val().trim()
+      };
+  
+      if (!userData.email || !userData.password) {
+        return;
+      }
+  
+      loginUser(userData.email, userData.password);
+      emailInput.val("");
+      passwordInput.val("");
+    });
+  
+    function loginUser(email, password) {
+      $.post("/api/login", {
+        email: email,
+        password: password
+      }).then(function(data) {
+        window.location.replace(data);
+      }).catch(function(err) {
+        console.log(err);
+      });
+    }
+  
+  });
