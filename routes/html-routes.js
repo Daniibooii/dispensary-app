@@ -2,6 +2,7 @@
 // template below //
 var path = require("path");
 
+var isAuthenticated = require('../config/middleware/isAuthenticated');
 // Routes
 // =============================================================
 module.exports = function(app) {
