@@ -13,29 +13,3 @@
     -moz-box-shadow: 1px 5px 25px 10px rgba(0,0,0,0.75);
     box-shadow: 1px 5px 25px 10px rgba(0,0,0,0.75);
 }
-
-/* Your custom styles */
-.demo-layout-transparent {
-    background: url('../images/relax.jpg') center / cover;
-  }
-  .demo-layout-transparent .mdl-layout__header,
-  .demo-layout-transparent .mdl-layout__drawer-button {
-    /* This background is dark, so we set text to white. Use 87% black instead if
-       your background is light. */
-    color: white;
-  }
-
-  .mdl-layout {
-	align-items: center;
-  justify-content: center;
-}
-.mdl-layout__content {
-	padding: 24px;
-	flex: none;
-}
-
-h1 {
-  color: white;
-  margin-top: -450px;
-  font-family: 'Ubuntu', sans-serif;
-}

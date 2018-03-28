@@ -9,7 +9,7 @@ $(document).ready(function(){
 function showCarousel() {
   $(document).on("click", "#crypto-btn", function () {
   $('.carousel').show();
-},
+},)
 };
 
 $("#rainingBitcoins").delay(9000).fadeOut(300);

@@ -25,7 +25,7 @@ module.exports = function (app) {
 
 
   //
-  app.get("/cms", function (req, res) {
+  app.get("/members", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/members.html"));
   });
 
