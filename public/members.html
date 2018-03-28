@@ -38,7 +38,7 @@
           <li>
             <a href="#">Reports</a>
           </li>
-          <a href="#" class="btn large white black-text">
+          <a href="/logout" class="btn large white black-text">
             <strong>LOG OUT</strong>
           </a>
         </ul>
@@ -75,7 +75,7 @@
           <li>
             <a href="#">Reports</a>
           </li>
-          <a href="#" class="btn large white black-text">
+          <a href="#" id="out" class="btn large white black-text">
             <strong>LOG OUT</strong>
           </a>
         </ul>
@@ -424,6 +424,16 @@
   <script src="https://cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
   <script src="javascript/charts.js"></script>
   <script>
+var logout = $("a#logout");
+logout.on("click", function(event) {
+
+    app.get('/logout', function(req, res){
+  req.logout();
+  res.redirect('/');
+});
+
+
+})
 
     // HIDE EVERYTHING ON OPEN
     $(".section").hide();
