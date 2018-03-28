@@ -1,14 +1,78 @@
-<!-- template below -->
-<!-- should include all our CSS links, etc., instead of in login.js? -->
-<!-- above = advice from tutor -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-		<title>Event Saver</title>
+	 <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../../public/css/superstyle.css" type="text/css" rel="stylesheet">
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <style>
+        .navbar {
+          margin-bottom: 0;
+          border-radius: 0;
+          color: #FFF;
+          background-color:black;
+          padding: 1% 0;
+          font-size: 1.2em;
+          border: 0;
+        }
+        .navbar-brand {
+          float: left;
+          min-height: 55px;
+          padding: 0 15px 5px;
+        }
+        .navbar-inverse .navbar-nav.active a, .navbar-inverse .navbar-nav.active a:focus,
+          .navbar-inverse .navbar-nav.active a:hover, {
+            color: FFF;
+            background-color:black;
+          }
+          .navbar-inverse .navbar-nav li a {
+            color: D5D5D5;
+          }
+          .carousel-caption {
+            top: 50%;
+            transform: translateY(-50%);
+            text-transform: uppercase;
+          }
+          .btn {
+            font-size: 18px;
+            color: #FFF;
+            padding: 12px 22px;
+            background:black;
+            border: 2px solid #FFF;
+          }
+          .container {
+            margin: 4% auto;
+          }
+          #icon {
+            max-width: 200px;
+            margin: 1% auto;
+          }
+          footer {
+            width: 100%;
+            background-color: black;
+            padding: 3%;
+            color: #FFF;
+          }
+    
+          @media (max-width: 600px) {
+            .carousel-caption {
+              display: none;
+            }
+            #icon {
+              max-width: 150px;
+            }
+            h2 {
+              font-size: 1.7em;
+            }
+          }
+    
+      </style>
 	</head>
 	<body>
 		{{{ body }}}
 	</body>
 </html>
+
