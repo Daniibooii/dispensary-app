@@ -4,7 +4,7 @@ window.onload = function () {
     animationEnabled: true,
     theme: "light2",
     title: {
-      text: "Visitors for the month February, 2018"
+      text: "Visitors for the month March, 2018"
     },
     axisY: {
       includeZero: false
@@ -49,10 +49,10 @@ window.onload = function () {
   var chart2 = new CanvasJS.Chart("revenueChart", {
     animationEnabled: true,
     title: {
-      text: "Website Revenue Over The Years"
+      text: "Donations Over The Years"
     },
     axisY: {
-      title: "Revenue in USD",
+      title: "Donations in USD",
       valueFormatString: "#0,,.",
       suffix: "mn",
       prefix: "$"
