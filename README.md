@@ -51,7 +51,7 @@ __Devon Williams__ - lead on __design elements__; back-end/front-end;<br>
   Github: https://github.com/Dvnwllms<br>
 
 ## Notes
-__Project goals:__<br>
+__Project Goals:__<br>
 Create a Node/Express web server<br> 
 Use MySQL DB/Sequelize ORM<br> 
 Structure folders/files to meet MVC paradigm<br> 
