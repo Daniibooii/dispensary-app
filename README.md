@@ -38,6 +38,7 @@ Further use of APIs is possible in the future.<br>
 __Legal Disclaimer:__<br>
 The creators of this app do not condone any illegal use of restricted subtances;<br>
 please check relevant local laws and regulations.<br>
+If you find yourself in disagreement with said laws, please call your local, state, and Federal representatives.<br>
 
 ## Contributors
 __Timour Basegmez__ - lead on __Handlebars__; back-end/front-end;<br>
@@ -62,8 +63,10 @@ Use one technology new to the majority of group members<br>
 Include polished front-end/UI<br> 
 Meet good quality coding standards: indentation/scoping/naming<br> 
 
-We presented our work to a group of our peers; the Powerpoint presentation is available for viewing below:<br>
+We presented our work to a group of our peers in late March;<br> 
+the Google Docs presentation used is available for viewing below:<br>
 https://docs.google.com/presentation/d/1UGg5VhAX3pe2CqOi0sk7Jw4gYQ-BVF7UpDAyf4exe2o/edit?usp=sharing<br>
+
 For context, Jared, Cris, and Sam are three more-experienced programmers who generously provided their time and expertise.<br>
 
 ## Inspirations
