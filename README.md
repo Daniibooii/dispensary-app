@@ -72,3 +72,4 @@ folks who are in prison for use of medicinal marijuana.<br>
 
 ## Resources
 Otreeba Open Cannabis API<br>
+Leafly<br>
