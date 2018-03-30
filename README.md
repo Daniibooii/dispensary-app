@@ -68,6 +68,7 @@ the Google Docs presentation used is available for viewing below:<br>
 https://docs.google.com/presentation/d/1UGg5VhAX3pe2CqOi0sk7Jw4gYQ-BVF7UpDAyf4exe2o/edit?usp=sharing<br>
 
 For context, Jared, Cris, and Sam are three more-experienced programmers who generously provided their time and expertise.<br>
+Our group was proud to receive the **"best buds"** superlative after our presentation!<br>
 
 ## Inspirations
 People who are in pain and can't get treatment or don't know what to take;<br>
