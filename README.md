@@ -4,7 +4,7 @@ Access our demo project: https://dispensary-app.herokuapp.com/<br>
 
 ## How to Use
 The user will first be prompted to register in order to access the app;<br>
-no personal data is required, we just requires a username and email.<br>
+no personal data is required, we just require a username and email.<br>
 
 Then, the user will select the issue they are seeking help with.<br>
 The app will generate recommended marijuana, or marijuana-derived, products for them.<br>
