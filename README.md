@@ -2,7 +2,7 @@
 Get the information you need, to get the treatment you need.<br>
 Access our demo project: https://dispensary-app.herokuapp.com/<br>
 
-<img src="https://github.com/Daniibooii/dispensary-app/blob/master/public/images/GreenerPasturesPHImage.PNG"><br>
+<img src="https://github.com/Daniibooii/dispensary-app/blob/master/public/images/GreenerPasturesPHImage.PNG" height=350px width =450px><br>
 
 ## How to Use
 The user will first be prompted to register in order to access the app;<br>
