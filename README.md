@@ -1,6 +1,8 @@
 # dispensary-app
-Get the information you need, to get the treatment you need.<br> 
+Get the information you need, to get the treatment you need.<br>
 Access our demo project: https://dispensary-app.herokuapp.com/<br>
+
+<img src="https://github.com/Daniibooii/dispenasary-app/blob/master/public/images/GreenerPasturesPHImage.png"><br>
 
 ## How to Use
 The user will first be prompted to register in order to access the app;<br>
@@ -52,18 +54,18 @@ __Devon Williams__ - lead on __design elements__; back-end/front-end;<br>
 
 ## Notes
 __Project Goals:__<br>
-Create a Node/Express web server<br> 
-Use MySQL DB/Sequelize ORM<br> 
-Structure folders/files to meet MVC paradigm<br> 
-Use Handlebars.js<br> 
-Include working GET/POST routes<br> 
-Host with Heroku<br> 
-Handle user authentication with Passport.js<br> 
-Use one technology new to the majority of group members<br> 
-Include polished front-end/UI<br> 
-Meet good quality coding standards: indentation/scoping/naming<br> 
+Create a Node/Express web server<br>
+Use MySQL DB/Sequelize ORM<br>
+Structure folders/files to meet MVC paradigm<br>
+Use Handlebars.js<br>
+Include working GET/POST routes<br>
+Host with Heroku<br>
+Handle user authentication with Passport.js<br>
+Use one technology new to the majority of group members<br>
+Include polished front-end/UI<br>
+Meet good quality coding standards: indentation/scoping/naming<br>
 
-We presented our work to a group of our peers in late March;<br> 
+We presented our work to a group of our peers in late March;<br>
 the Google Docs presentation used is available for viewing below:<br>
 https://docs.google.com/presentation/d/1UGg5VhAX3pe2CqOi0sk7Jw4gYQ-BVF7UpDAyf4exe2o/edit?usp=sharing<br>
 
